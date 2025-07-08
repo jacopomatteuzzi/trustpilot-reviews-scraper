@@ -110,6 +110,7 @@ class TrustpilotScraper:
         review_elements = []
         for selector in review_selectors:
             review_elements = soup.select(selector)
+            print(f"🔍 Testando selettore: {selector} -> Trovati: {len(review_elements)}")
             if review_elements:
                 print(f"✅ Trovati {len(review_elements)} elementi con selettore: {selector}")
                 break
