@@ -195,24 +195,4 @@ define('WP_DEBUG_LOG', true);
 
 ## 📄 Licenza
 
-GPL v2 o successiva
-
-## 🤝 Supporto
-
-Per problemi o domande:
-1. Controlla i log di errore
-2. Verifica che Playwright sia installato correttamente
-3. Testa con l'URL di un'azienda diversa
-4. Controlla i requisiti di sistema
-
-## 🔄 Aggiornamenti
-
-Per aggiornare il plugin:
-1. Fai backup delle recensioni esistenti
-2. Sostituisci i file del plugin
-3. Esegui `npm install` per aggiornare le dipendenze
-4. Testa il funzionamento
-
----
-
-**Nota**: Questo plugin è per uso educativo e di test. Rispetta sempre i termini di servizio di Trustpilot e le leggi sulla privacy. 
+GPL v2 o successiva 
