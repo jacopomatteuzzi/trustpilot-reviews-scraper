@@ -99,6 +99,7 @@ class TrustpilotScraper:
         
         # Selettori per le recensioni (aggiornati)
         review_selectors = [
+            '.styles_cardWrapper__g8amG.styles_show__Z8n7u',
             'article.styles_reviewCard__meSdm',
             'article[data-service-review-card-uid]',
             '.styles_reviewCard__hcAvl',
@@ -145,6 +146,7 @@ class TrustpilotScraper:
             '.styles_consumerInfoWrapper__6HN5O button',
             '.styles_btnWrapper__arGPQ',
             '[data-service-review-name-typography]',
+            '.styles_consumerName__xKr9c',
             '.reviewer-name',
             '.consumer-name'
         ]
@@ -210,6 +212,7 @@ class TrustpilotScraper:
             '.styles_reviewText__q8Zhv',
             '[data-service-review-text-typography]',
             '.typography_body-l__KUYFJ',
+            '.styles_reviewText__q8Zhv',
             '.review-content',
             '.review-text',
             'p',
