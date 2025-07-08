@@ -1,0 +1,23 @@
+{
+  "name": "trustpilot-reviews-scraper",
+  "version": "1.0.0",
+  "description": "Plugin WordPress per scraping recensioni Trustpilot con Playwright",
+  "main": "index.js",
+  "scripts": {
+    "install-browsers": "playwright install",
+    "test": "node test-playwright.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "trustpilot",
+    "scraper",
+    "playwright"
+  ],
+  "author": "Il tuo nome",
+  "license": "GPL-2.0-or-later"
+} 

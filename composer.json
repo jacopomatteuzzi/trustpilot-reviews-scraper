@@ -1,0 +1,19 @@
+{
+    "name": "trustpilot-reviews-scraper",
+    "description": "Plugin WordPress per scraping recensioni Trustpilot",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "playwright/playwright": "^1.40"
+    },
+    "autoload": {
+        "psr-4": {
+            "TrustpilotScraper\\": "includes/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "npx playwright install"
+        ]
+    }
+} 
